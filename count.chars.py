@@ -1,9 +1,9 @@
 custom_sentence = input("Insert a phrase: ")
 words = custom_sentence.split()
 
-dictionary = {}
+dictionary_sentence = {}
 
 for word in words:
-    dictionary[word] = len(word)
+    dictionary_sentence[word] = len(word)
 
-print(dictionary) 
+print(dictionary_sentence) 
